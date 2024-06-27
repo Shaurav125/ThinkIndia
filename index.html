@@ -17,8 +17,8 @@
     @import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
     </style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <div class="container-fluid py-2">
 
           <a class="navbar-brand" href="#"><img src="thinkindialogo.jpeg" class="img-fulid rounded-pill ms-3" style="width:70px"></a>
 
@@ -26,7 +26,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto px-5 mt-3 mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto px-5 mt-3  mb-lg-0">
 
               <li class="nav-item px-2">                
                 <a class="nav-link active" aria-current="page" href="#banner">Home</a>
@@ -53,8 +53,8 @@
       <!-- home content -->
 
        <section id="banner">
-       <div class="container mt-sm-5">
-        <div class="row mt-5">
+       <div class="container mt-sm-5 " >
+        <div class="row" id="bandt">
             <div class="col-md-6 text-center mt-sm-5">
             <p class=""> <h1 class="pt-4 pb-2 mt-5"> <div data-aos="zoom-in-up">Welcome to the Think India Club at NIT Patna! </h1></p>
 <br>
@@ -159,7 +159,7 @@ Through its programs, Think India aims to promote critical thinking, awareness, 
         <img src="android.png" class="card-img-top text-center rounded-pill" alt="...">
       
         <div class="card-body">
-          <p class="card-text text-center"><h3>Android-Team</h3></p>
+          <p class="card-text "><h3 class="text-center">Android-Team</h3></p>
         </div>
       </div>
           
@@ -170,7 +170,7 @@ Through its programs, Think India aims to promote critical thinking, awareness, 
               <img src="desi.jpeg" class="card-img-top text-center rounded-pill" alt="...">
             
               <div class="card-body">
-                <p class="card-text text-center"> <h3>Design Team</h3></p>
+                <p class="card-text text-center"> <h3 class="text-center">Design Team</h3></p>
               </div>
             </div>
                 
@@ -346,7 +346,9 @@ Through its programs, Think India aims to promote critical thinking, awareness, 
   <script>
 	var scroll = new SmoothScroll('a[href*="#"]');
 </script>
+<script src="navtop.js">
 
+</script>
        
 </body>
 </html>
