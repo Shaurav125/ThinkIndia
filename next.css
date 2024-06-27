@@ -44,13 +44,14 @@ h1{
     text-shadow: black 2px 2px;
 }
 h4{
-  font-family: "Playwrite NZ", cursive;
+  font-family: "Roboto Condensed", sans-serif;
     font-weight: 600;
     color:#f7f4f4;
     font-style: italic;
     text-transform: capitalize;
     line-height: 1.6;
-    text-shadow: black 2px 2px;
+    text-shadow: black 1px 2px;
+    font-size: 28px;
 }
 
 #banner{
@@ -105,11 +106,12 @@ text-shadow: 1px 1px;
 
 /* about and vision */
 .para{
-  font-family: "Playwrite NZ", cursive;
+  font-family: "Roboto Condensed", sans-serif;;
+  
   font-weight: 600;
   color:#333232 !important;
   font-style: italic;
-  font-size:25px;
+  font-size:28px;
   text-transform: capitalize;
   line-height: 1.8;
   text-shadow: rgb(203, 198, 198) 1px 1px ;
